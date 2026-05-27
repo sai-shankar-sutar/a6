@@ -1,3 +1,13 @@
+:root {
+	--pc: #212121;
+	--sc: #3e3e3e;
+	--mw: 1600px;
+	--bc: #2A2857;
+	--buttoncol: #fff;
+	--best: #C790DB;
+	--db: #F97F31;
+	--navcol: #2A2857;
+}
 @font-face {
 	font-family: Reckless;
 	src: url("font\Reckless.otf");
@@ -24,16 +34,7 @@
 	box-sizing: border-box;
 }
 
-:root {
-	--pc: #212121;
-	--sc: #3e3e3e;
-	--mw: 1600px;
-	--bc: #2A2857;
-	--buttoncol: #fff;
-	--best: #C790DB;
-	--db: #F97F31;
-	--navcol: #2A2857;
-}
+
 
 a {
 	color: var(--pc);
