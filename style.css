@@ -1037,6 +1037,7 @@ nav .x{
 
 .product_right {
 	border-left: 1.5px solid #222;
+    border-left: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1045,6 +1046,7 @@ nav .x{
 .product_right a {
 	width: 70px;
 	height: 50px;
+    
 	border: 1.5px solid #222;
 	border-radius: 40px;
 	background: #f5f1e7;
