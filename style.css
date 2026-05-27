@@ -95,28 +95,28 @@ nav .x{
     margin-left:-10px;
 }
 
-.shop_button {
+.shopbtn {
 	display: flex;
 	align-items: center;
 	gap: 20px;
 	gap: 20px;
 }
 
-.shop_button a {
+.shopbtn a {
 	font-size: 25px;
 	font-family: Reckless;
 	font-weight: 100;
 	color: var(--sc);
 }
 
-.shop_button .ri-arrow-down-s-line {
+.shopbtn .ri-arrow-down-s-line {
 	font-size: 22px;
 	background-color: #C0DBFF;
 	border-radius: 50%;
 	border: 1px solid black;
 }
 
-.shop_button .ri-star-smile-line {
+.shopbtn .ri-star-smile-line {
 	font-size: 25px;
 	color: #E8AA63;
 }
@@ -227,7 +227,7 @@ nav .x{
 }
 
 .cards_section {
-    font-family: 'Reckless';
+    font-family: Anton;
 	padding: 60px 40px;
 	overflow: hidden;
 }
@@ -1828,13 +1828,13 @@ body {
 		justify-content: center;
 	}
 
-	.shop_button,
+	.shopbtn,
 	.nav_bar {
 		flex-wrap: wrap;
 		justify-content: center;
 	}
 
-	.shop_button a {
+	.shopbtn a {
 		font-size: 20px;
 	}
 }
@@ -1848,7 +1848,7 @@ body {
 		border-radius: 16px;
 	}
 
-	.shop_button,
+	.shopbtn,
 	.nav_bar {
 		width: 100%;
 		justify-content: center;
@@ -1856,7 +1856,7 @@ body {
 		gap: 12px;
 	}
 
-	.shop_button a {
+	.shopbtn a {
 		font-size: 18px;
 	}
 
@@ -2147,16 +2147,16 @@ body {
         display: none;
     }
 
-	.shop_button {
+	.shopbtn {
 		justify-content: flex-start;
 		gap: 0;
 	}
 
-	.shop_button a {
+	.shopbtn a {
 		display: none;
 	}
 
-	.shop_button::before {
+	.shopbtn::before {
 		content: "";
 		width: 36px;
 		height: 24px;
